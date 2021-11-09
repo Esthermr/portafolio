@@ -1,0 +1,97 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+}
+body{
+	height: 100vh;
+}
+header{
+	width: 100%;
+	background-color: #3b5998;
+	/*empieza el flex box*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header h1 {
+	margin:1%;
+	color: white;
+	font-size: 3em;
+}
+nav ul{
+	display:flex;
+	margin-right: 1em;
+}
+ul li{	
+	list-style-type: none;
+	margin: 0.5em;
+	background-color: blue;
+	/*Bordes sobre cajas contenedoras*/
+	border: 2px double silver;
+	/*Bordes redondeados*/
+	border-radius: 15px;
+	padding: 5px 10px;
+}
+li:hover{
+	background-color: green;
+}
+li a{
+	font-size: 1.5em;
+	text-decoration: none;
+	color: white;
+}
+li:hover > a{
+	font-size: 1.7em;
+	color:hotpink;
+}
+/*Agrupamos propiedades usando la coma*/
+/*Utilizamos el caracter ">"para indicar que las propiedades solo aplican a los hijos inmediatos o descendientes directos de la etiqueta "main" */
+main > h1{
+	/*padding: 1%;*/
+	margin: 1vw;
+}
+main > p{
+	/*Alineación del texto en modo justificado*/
+	text-align: justify;
+	margin-top: 1em;
+	margin-left: 20px;
+	margin-right:1.2em;
+}
+footer{
+	width: 100vw;
+	position: absolute;
+	bottom: 0;
+	background-color: #3b5998;
+	height: 100px;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	/*flexibilizar el footer para que los elementos se dispongan en horizontal*/
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+}	
+.rights{
+	margin-left: 1.2em;
+}
+.smedia{
+	/*haciendo que los iconos tomen forma de columna*/
+	display: flex;
+	flex-direction: column;
+	margin-right: 1.2em;
+	font-size: 1.2em;
+}
+.smedia i{
+	padding: 0.05em;
+}
+.youtube{
+	color:maroon;
+}
+.twitter{
+	color:dodgerblue;
+}
+.facebook{
+	color:darkblue;
+}

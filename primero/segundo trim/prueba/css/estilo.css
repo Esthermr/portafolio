@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+}
+header{
+	background-color:teal;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2em;
+}
+header h1{
+	color: white;
+}
+ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+li a{
+	text-decoration-line: none;
+	color:steelblue;
+	padding: 1.1em;
+	background-color: lightblue;
+	margin: 0.2em;
+	border-radius: 1em;
+	border:0.1em solid springgreen;
+}
+li a:hover{
+	color:midnightblue;
+	font-size: 1.2em;
+	background-color:darkturquoise;
+}
+main{
+	width:100%;
+}
+main h1{
+	margin-top: 0.5em;
+	margin-left: 1em;
+}
+main p{
+	margin-left: 3em;
+	width: 95%;
+}
+section{
+	background-color: lightseagreen;
+	width:90%;
+	height:20%;
+	display:flex;
+	flex-direction: row;
+	margin:0em 5em;
+	border-radius: 3em;
+}
+article{
+	width:20%;
+	margin:2em;
+	padding: 0.5em;
+	background-color: mediumaquamarine;
+	border-radius: 0.5em;
+}
+article img{
+	width: 100%;
+	border-radius: 0.5em;
+}
+article h3{
+	margin:0.5em;
+}
+article p{
+	margin: 0em 1em;
+}
+article a{
+	text-decoration-line: none;
+	color:steelblue;
+	padding: 0.25em;
+	background-color: lightblue;
+	margin: 0.2em;
+	border-radius: 0.5em;
+	border:0.1em solid springgreen;
+	display: flex;
+	justify-content: space-between;
+}
+article a:hover{
+	font-size: 1.1em;
+}
+footer{
+	background-color:teal;
+	width: 100%;
+	height: 6vw;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;	
+}
+footer h4{
+	color: white;
+	font-size: 1.6em;
+	padding: 0.7em;
+}
+.socialmedia i{
+	font-size: 1.5em;
+	margin-right: 0.5em;
+	display: flex;
+	flex-direction: column;
+}
+.cf{
+	color: darkblue;
+}
+.ct{
+	color: cyan;
+}
+.ci{
+	color:deeppink;
+}
+.cy{
+	color: darkred;
+}
+i:hover{
+	font-size: 2.5em;
+}

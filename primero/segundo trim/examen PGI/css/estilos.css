@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+/*Comienzo con la cabecera*/
+header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.logo img{
+	max-width: 5em;
+	margin: 0 2em;
+}
+.logo h1{
+	font-size: 50;
+	font-family: 'Nunito', sans-serif;
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+
+}
+nav ul li {
+	list-style: none;
+	padding: 1.5em 2em;
+}
+nav ul li a{
+	text-decoration:none;
+	font-family: 'Nunito', sans-serif;
+	font-size:26;
+
+}
+nav ul li:hover{
+	background-color: #C6B785;
+	border-radius: 1.25em;
+
+}
+/*Empieza el main*/
+main h3{
+	margin: 1.5em 1.5em 0;
+	font-family: 'Nunito', sans-serif;
+	font-size:26;
+}
+section{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+article{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom:1.5em;
+}
+.tarjeta{
+	max-width: 27em; 
+	width: 15em;
+	background-color: lightgray;
+	margin: 1em 6em ;
+	border-radius: 1.25em;
+}
+.tarjeta img{
+	width: 12em;
+	margin: 1.5em;
+}
+.tarjeta .texto{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left:0.75em;
+}
+.tarjeta .texto h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16;
+	 
+}
+.tarjeta .texto h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size:25;
+	margin-bottom:0.75em;
+}
+.botones a{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20;
+	margin-top: 1em;
+	padding: 1em 1.5em;
+	border-radius: 0.5em;
+	background-color: lightgrey;
+	color: black;
+	display: inline-block;
+}
+.botones a:hover{
+	background-color: #C6B785;
+}
+/*Empiezo a hacer el footer*/
+footer{
+	bottom:0;
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2em;
+}
+.social-icons i{
+	font-size: 1.75em;
+}
+.social-icons i:hover{
+	font-size: 2em;
+	color:white;
+}

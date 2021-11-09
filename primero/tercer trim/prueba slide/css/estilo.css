@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+header{
+	position: fixed;
+	width:100%;
+	background-color: black; 
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 1em;
+}
+li a{
+	text-decoration: none;
+	color: #D6EAF8;
+	padding: 0 0.5em;
+}
+main section{
+	overflow-y: scroll;
+  	scroll-behavior: smooth;
+}
+main .scrolling{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60em;
+}
+.scrolling h1{
+	font-size: 5em;
+}
+#Primero{
+	background-color:#EC7063;
+}
+#Segundo{
+	background-color: #7FB3D5;
+}
+#Tercero{
+	background-color: #5D6D7E;
+}

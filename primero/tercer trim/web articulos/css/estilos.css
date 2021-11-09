@@ -1,0 +1,69 @@
+:root{
+	--familia1:Montserrat, sans-serif;
+	--familia2:Helvetica, sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color:#3F4C5A;
+	color: #DDE9F5;
+
+}
+header .titulos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:2em;
+	font-family: var(--familia1);
+}
+main{
+	font-family: var(--familia2);
+}
+main .team{
+	margin: 1em 0em 0.5em 0;
+	text-align: center;
+}
+section{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: center;
+}
+article{
+	width:20em;
+	background-color: white;
+	margin: 0.5em 3em;
+	box-shadow: 0em 0.05em 0.25em 0.05em black;
+}
+article .info{
+	margin:0.5em;
+
+}
+article img{
+	width: 100%;
+}
+.info .puesto{
+	color:grey;
+	font-style: italic;
+}
+.botones a{
+	background-color: black;
+	color: #DDE9F5;
+	text-decoration: none;
+	display: block;
+	padding: 0.35em;
+	text-align:center;
+	margin:0.5em;
+}
+.botones a:hover{
+	background-color: #DDE9F5;
+	color: black;
+}
+article:hover{
+	transform: translate(0em, -1em) scale(1.05, 1.05);
+	transition: all 0.2s ease-out; 
+}
+.text{
+	transition: all 0.2s;
+}

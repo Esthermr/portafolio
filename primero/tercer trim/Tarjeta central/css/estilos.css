@@ -1,0 +1,54 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FAD7A0;
+	height:100vh;
+}
+.titulo{
+	text-align: center;
+}
+.tarjeta{
+	width: 20em;
+	background-color: #DC7633;
+	border-radius: 3em;
+	box-shadow: 5px 5px 7px 2px #444;
+
+}
+.tarjeta:hover{
+	transform: scale(1.25, 1.25);
+	transition-duration: 0.5s ;
+	background-color: #DC7633;
+	border-radius: 3em;
+	box-shadow: 5px 5px 7px 2px black;
+}
+.tarjeta .image img{
+	width: 100%;
+	border-radius: 3em 3em 0 0;
+}
+.inter-text h4{
+	font-size: 1.5em;
+	padding: 1em;
+}
+.button{
+	display: flex;
+	justify-content: center;
+	border:black;
+	padding-bottom:2em;
+}
+.button a{
+	text-decoration: none;
+	color:black;
+	padding: 1em 2em;
+	border-radius: 2em; 
+	border: 2px solid black;
+}
+.button a:hover{
+	background-color:black;
+	color:#D6EAF8; 
+}

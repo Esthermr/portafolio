@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+	box-sizing:border-box;
+}
+header{
+	background-image: url("https://source.unsplash.com/random/1920x1080");
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	color:white;
+	justify-content: center;
+	align-items: center;
+}
+.cabeza{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.cabeza h1{
+	font-size: 4em;
+	font-weight: 400;
+	text-shadow: 5px 5px 5px #372923;
+}
+.cabeza p{
+	font-size: 1.5em;
+}
+.cabeza a{
+	display: flex;
+	margin: 0.5em 0em;
+	padding: 0.5em;
+	text-decoration:none;
+	color: white;
+	font-size: 1.25em;
+	background-color: grey;
+	border-radius: 1em;
+}
+.cabeza a:hover{
+	background-color: #E63C42;
+}
+header .mod{
+	bottom: 1em;
+	display: inline-block;
+	position: absolute;
+	color:white;
+}
+.modal-contenido{
+  background-color:whitesmoke;
+  color:black;
+  width:40vw;
+  padding: 2em;
+  margin: 20% auto;
+  position: relative;
+
+}
+.modal-contenido a{
+	text-decoration: none;
+	color: black;
+}
+.modal-contenido a:hover{
+	cursor:pointer;
+}
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+}
+#miModal:target{
+  opacity:1;
+  pointer-events:auto;
+}

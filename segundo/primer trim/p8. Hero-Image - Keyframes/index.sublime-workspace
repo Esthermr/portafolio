@@ -1,0 +1,514 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"background-repeat"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"objefit",
+				"object-fit\tproperty"
+			],
+			[
+				"flex",
+				"inline-flex\tdisplay"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"shado",
+				"text-shadow\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"background",
+				"background-clip\tproperty"
+			],
+			[
+				"color",
+				"color\tproperty"
+			],
+			[
+				"fle",
+				"flex-start\talign-items"
+			],
+			[
+				"bac",
+				"background-image\tproperty"
+			],
+			[
+				"css",
+				"css"
+			],
+			[
+				"bol",
+				"bolder\tfont-weight"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"margi",
+				"margin\tproperty"
+			],
+			[
+				"b",
+				"brightness()\tfilter"
+			],
+			[
+				"a",
+				"saturate()\tfilter"
+			],
+			[
+				"scale",
+				"scaleX()\ttransform"
+			],
+			[
+				"tra",
+				"transform\tproperty"
+			],
+			[
+				"animation-t",
+				"animation-duration\tproperty"
+			],
+			[
+				"anima",
+				"animation-name\tproperty"
+			],
+			[
+				"ma",
+				"max-width\tproperty"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"fa",
+				"fa-bars"
+			],
+			[
+				"menu",
+				"menu_items"
+			],
+			[
+				"ali",
+				"text-align\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"dire",
+				"direction\tproperty"
+			],
+			[
+				"aling",
+				"align-content\tproperty"
+			],
+			[
+				"alin",
+				"align-items\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"size",
+				"size\tproperty"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"shadow",
+				"box-shadow\tproperty"
+			],
+			[
+				"c",
+				"crosshair\tcursor"
+			],
+			[
+				"bl",
+				"block\tdisplay"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"s",
+				"space-between\tjustify-content"
+			],
+			[
+				"al",
+				"text-align\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"h",
+				"Helvetica"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"ic",
+				"iconol1"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"flex-d",
+				"flex-direction\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"styl",
+				"list-style\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"head",
+				"header\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"packagecontrol",
+			"package control"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p8. Hero-Image - Keyframes/css/estilos.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p7. Hero-Image (Etiqueta img)/index.html",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p7. Hero-Image (Etiqueta img)/css/estilos.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p5. Hero-Image con Modal/css/estilos.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p6. Pseudoclases/css/estilos.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p5. Hero-Image con Modal/index.html",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p6. Pseudoclases/index.html",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p5. Hero-Image y Modal/index.html",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p5. Hero-Image y Modal/css/estilos.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p4. Hero-Image/css/estilos.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p4. Hero-Image/index.html",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p4. Hero-Image/index.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p3. Portfolio/css/all.css",
+		"/F/CSGI/primero/Proyectos de gráfica interactiva/tercer trim/landing page/index.html",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p3. Portfolio/index.html",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p3. Portfolio/css/estilos.css",
+		"/F/CSGI/segundo/Interfaz de usuario/p1. Prueba Inicial/css/estilos.css",
+		"/F/CSGI/segundo/Interfaz de usuario/p1. Prueba Inicial/index.html",
+		"/F/CSGI/primero/Proyectos de gráfica interactiva/tercer trim/landing page/css/estilos.css",
+		"/F/CSGI/segundo/Interfaz de usuario/p1. Pagina css/css/estilos.css",
+		"/F/CSGI/segundo/Interfaz de usuario/p1. Pagina css/index.html",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p3. Portfolio/css/solid.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p3. Portfolio/css/fontawesome.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p3. Portfolio/css/all.min.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p1. Donald Norman/css/estilos.css",
+		"/F/CSGI/segundo/Proyectos de gráfica interactiva/p1. Donald Norman/index.html",
+		"/F/igu/primer proyecto/index.html",
+		"/F/igu/primer proyecto/css/estilos.css",
+		"/D/Archivos de Sistema/Escritorio/D/HTML/menu.html",
+		"/D/Archivos de Sistema/Escritorio/D/HTML/css/menu.css",
+		"/D/Archivos de Sistema/Escritorio/D/google/google.html",
+		"/D/Archivos de Sistema/Escritorio/D/David - Página con flex/css/IronRealm.css",
+		"/D/Archivos de Sistema/Escritorio/D/David - Página con flex/IronRealm.html",
+		"/D/Archivos de Sistema/Escritorio/D/HTML/Menú.html",
+		"/D/Archivos de Sistema/Escritorio/menu_responsive.js",
+		"/D/Archivos de Sistema/Escritorio/proyecto del menu/index2.css",
+		"/D/Archivos de Sistema/Escritorio/proyecto del menu/index2.html",
+		"/D/Archivos de Sistema/Escritorio/basic_flex/menu.html",
+		"//CSGI2-PROFESOR/Buzon/Olga Losada/css.css",
+		"//CSGI2-PROFESOR/Buzon/Olga Losada/index2.html",
+		"/D/Archivos de Sistema/Escritorio/proyecto del menu/indexx.html",
+		"/D/Archivos de Sistema/Escritorio/basic_flex/css/menu_movil_first.css",
+		"/D/Archivos de Sistema/Escritorio/pyectos de menu/index.html",
+		"/D/Archivos de Sistema/Escritorio/proyecto html/menu horizontal/proyecto1",
+		"/D/Archivos de Sistema/Escritorio/David - Tarjetas HTML/Foro/foro.html",
+		"/D/Archivos de Sistema/Escritorio/David - Tarjetas HTML/Foro/css/foro.css",
+		"//CSGI2-PROFESOR/Buzon/basic_flex/basic_flex/css/miestilo_movil_first.css",
+		"//CSGI2-PROFESOR/Buzon/basic_flex/basic_flex/css/menu_movil_first.css",
+		"/D/Archivos de Sistema/Escritorio/proyecto html/practica.html",
+		"/D/Archivos de Sistema/Escritorio/proyecto html/index.html",
+		"//CSGI2-PROFESOR/Buzon/basic_flex/basic_flex/index.html",
+		"/D/Archivos de Sistema/Escritorio/D/HTML/css/estilo.css",
+		"/D/Archivos de Sistema/Escritorio/D/HTML/Ejercicio.html",
+		"/D/Archivos de Sistema/Escritorio/D/HTML/index.html",
+		"/D/Archivos de Sistema/Escritorio/D/HTML/css/Ejercicio.css",
+		"/D/Archivos de Sistema/Escritorio/proyecto html/practica"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"%;\n",
+			"start",
+			">\n",
+			"black",
+			"fa-thin",
+			"whitesmoke",
+			";\n",
+			"10px",
+			";\n",
+			"70",
+			";\n",
+			"Responsiv"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

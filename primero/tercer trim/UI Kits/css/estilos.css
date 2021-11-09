@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(115.33deg, #4200FF 4.8%, #B414FF 87.71%);;
+}
+section{
+	width: 300px;
+	height: 600px;
+	background-color: white;
+}
+.cabecera{
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+ul li{
+	margin: 0 10%;
+}
+.name{
+	display: flex;
+	align-items: center;
+}
+.name img{
+	margin:2%;
+	width: 90%;
+}
+.foto{
+	width: 100%;
+	height: 13em;
+	background-size:cover;
+	background-image: url("../img/foto.jpg");
+}
+.foto img{
+	display: flex;
+
+}
+.cabecera,.story,.piep,.piefoto,.user{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2%;
+}
+.piefoto .dots{
+	transform: translateX(-1em);
+}
+.piep img{
+	width: 9%;
+	margin: 5%;
+}
+.coment{
+	width: 100%;
+}
+.coment img{
+	width: 100%;
+	padding: 3%;
+}
+.inter img{
+	height: 10%;
+}
