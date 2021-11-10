@@ -52,44 +52,36 @@ section a{
 	height: 32vh;
 	position: relative;
 }
+.ov{
+	position: fixed;
+  	display: block;
+  	width: 100%; 
+  	height: 100%;
+  	top: 0;
+ 	left: 0;
+ 	right: 0;
+  	bottom: 0;
+  	background-color: rgba(255,255,255,0.5);
+}
 .primero{
-	background-color:magenta;
-
+	background-image:url(../img/primero.jpg);
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-.primero svg{
-	opacity: 0;
-	position: absolute;
-}
-
 .segundo{
 	background-color:cyan;
-}
-.segundo svg{
-	opacity: 0;
 }
 .tercero{
 	background-color: yellow;
 }
-.tercero svg{
-	opacity: 0;
-}
-.primero .anim:hover{
-	animation: opac 5s, rota 5s, coloura 5s;
+.primero:hover{
+	background-image: linear-gradient(90deg, rgba(176,63,251,1) 0%, rgba(252,70,107,1) 100%);
+	opacity: 0.75;
 }
 .segundo:hover{
 	animation: opac 5s, rota 5s, colourb 5s;
 }
 .tercero:hover{
 	animation: opac 5s, rota 5s, colourc 5s;
-}
-@keyframes opac{
-	0%{
-		opacity: 0;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		opacity: 0;
-	}
 }
