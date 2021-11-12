@@ -17,6 +17,7 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	height: 2.25vh;
+	z-index:1 ;
 }
 nav{
 	width: 10vw;
