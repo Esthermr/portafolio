@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@500;600;700&display=swap');
+*,*:before,*:after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Mohave', sans-serif;
+}
+main{
+	max-width: 100vw;
+	min-height: 100vh;
+	background-color: #303030;
+	color: #B0B0B0;
+}
+.titulo{
+	height: 10vh;
+	text-align: center;
+	padding:2vh;
+}
+.galeria{
+	width: 80vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin:auto;
+	flex-grow: 1;
+	padding-bottom:3vh;
+}
+.item{
+	height: 20em;
+	width: 20em;
+	position: relative;	
+	padding:2em;
+	filter: grayscale(100%);
+}
+
+.item figure{
+	width: 100%;
+	height: 100%;	
+}
+
+.item figure img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+.item figcaption{
+	background-color: #636363;
+	text-align: center;
+	padding: 0.25em;
+}
+.item:hover{
+	filter: grayscale(0%);
+}

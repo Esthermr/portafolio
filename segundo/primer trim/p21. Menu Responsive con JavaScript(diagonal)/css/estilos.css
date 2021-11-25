@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Shippori Antique B1', sans-serif;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5em;
+	background-color: #2e2e2e;
+	position: relative;
+	color: #e8e8e8;
+}
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	transition: all 0.5s ease-in;
+}
+.items{
+	display: flex;
+	justify-content: space-between;
+}
+li{
+	list-style: none;
+	margin: 0.5em;
+}
+li a{
+	text-decoration: none;
+	color: #e8e8e8;
+}
+a:hover{
+	color: darkred;
+}
+.btn-burger{
+	width: 2em;
+	display:none!important;
+}
+nav.show{
+	clip-path: circle(160vh at 100vw 4vh);
+}
+@media screen and (max-width: 660px){
+	.menu{
+		position: fixed;
+		background-color: #2e2e2e;
+		height: 100vh;
+		width: 100vw;
+		z-index: -1;
+		right: 0;
+		top: 5vh;
+		clip-path: circle(0vh at 100vw 4vh);
+	}	
+	.items{
+		flex-direction: column;
+		text-align: center;
+		font-size: 2em;
+		width: 100%;
+	}
+	.btn-burger{
+		width: 2em;
+		display: inline-flex !important;
+	}
+
+}
