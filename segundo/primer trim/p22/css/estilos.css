@@ -208,6 +208,9 @@ h2 span{
 }
 .right{
 	font-size: 1.5em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 .right h6{
 	font-weight: 300;
@@ -632,6 +635,9 @@ form{
 		padding:0.25em 0;
 	}
 	.burger{
+		font-size: 2em;
+	}
+	.sub_title{
 		font-size: 2em;
 	}
 }
