@@ -22,6 +22,9 @@ header{
 	z-index: 2;
 	height: 100vh;
 }
+body{
+	overflow-x: hidden;
+}
 .cab{
 	left: 0;
 	position: fixed;
@@ -209,7 +212,7 @@ h2 span{
 .right{
 	font-size: 1.5em;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 }
 .right h6{
@@ -252,23 +255,26 @@ h2 span{
 	font-size: 1.25em;
 }
 .duo{
-	max-width:1000px;
-	width: 100%;
-	/*margin-top: 5em;*/
-	margin:  5em auto;
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: center;
-	gap: 20px;
+	max-width: 1000px;
+    width: 85%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    gap: 20px;
 }
 .duo .ele{
-	flex: 39%;
-	display: flex;
-	flex-direction: row;
-	margin:  3em;
+	max-width: 475px;
+    min-width: 350px;
+    flex: 34%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .ele i{
@@ -409,12 +415,12 @@ h2 span{
 }
 
 .fotos img:nth-child(3n){
-    grid-column-end: span 2;
+    grid-column-end: span 1;
     grid-row-end: span 1;
 }
 
 .fotos img:nth-child(2n+1){
-    grid-row-end: span 2;
+    grid-row-end: span 1;
 }
 .test{
 	margin-top: 7em;
@@ -579,6 +585,7 @@ form{
 		justify-content: center;
 		align-items: center;
 	}
+
 	.secciones ul li{
 		padding: 1em 0;
 	}
@@ -622,6 +629,36 @@ form{
 		background-image: url(../img/bg-peque.jpg);
 		background-size: cover;
 	}
+	.gif{
+		display: none;
+	}
+	.mid{
+		padding:2em 0 ;
+	}	
+	.mid .left{
+	width: 80%;
+	margin-bottom: 1em;
+}	
+	.end{
+		display: none;
+	}
+	.xp{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-top: 5em;
+		position: relative;
+	}
+	.tope{
+		margin-top: 2em;
+	}
+	.tope h1{
+		margin-bottom: 0;
+	}
+	.studies{
+		min-height: 150px;
+	}
 	.content h2{
 		font-size: 1.5em;
 		padding:0.5em 0;
@@ -638,6 +675,56 @@ form{
 		font-size: 2em;
 	}
 	.sub_title{
-		font-size: 2em;
+		font-size: 2.5em;
+	}
+	.skills{
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 3em;
+		width: 100%;
+		}	
+	.dato{
+		width: 90%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.skill{
+		width: 100%;
+		padding: 1em;
+	}
+	.skill .text h3:nth-child(2){
+		direction: rtl;
+	}
+	.skill .text{
+		display: flex;
+		justify-content: space-between;
+	}
+	.nav{
+		width: 60%;
+		margin: 5em auto;
+	}
+	.fotos img:nth-child(2n){
+    	grid-column-end: span 0.75;
+	}
+
+	.fotos img:nth-child(3n){
+    	grid-column-end: span  0.75;
+    	grid-row-end: span  0.75;
+	}
+
+	.fotos img:nth-child(2n+1){
+    	grid-row-end: span 0.75;
+	}
+	.testim{
+		width: 80%;
+		min-height: 23vh;
+		background-color:#fafafa;
+		box-shadow: 3px 3px 5px #aeaeae;
+		padding: 3em;
+		margin: 2em;
 	}
 }
