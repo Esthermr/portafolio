@@ -3,48 +3,331 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<script src="https://kit.fontawesome.com/29a33f29b0.js" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="menuresponsive.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<title>Portfolio con Aside</title>
+
 </head>
 <body>
 	<header>
-		<div class="profile">
-			<img src="img/profile.jpg">
-			<h1>Esther Martínez</h1>
+		<div class="cab">
+			<div class="profile">
+				<img src="img/profile.jpg">
+				<h2>Simone Olivia</h2>
+			</div>
+			<nav class="secciones">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#aboutme">About Me</a></li>
+					<li><a href="#whatido">What I do</a></li>
+					<li><a href="#resume">Resume</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#testimonial">Testimonial</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="rrss">
+				<i class="fab fa-facebook-square"><a href="#"></a></i>
+				<i class="fab fa-twitter-square"><a href="#"></a></i>
+				<i class="fab fa-dribbble-square"><a href="#"></a></i>
+				<i class="fab fa-github-square"><a href="https://esthermr.github.io/portafolio/"></a></i>	
+			</div>
+			<i class="burger fas fa-bars"></i>
 		</div>
-		<nav class="secciones">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About Me</a></li>
-				<li><a href="#">What I do</a></li>
-				<li><a href="#">Resume</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Testimonial</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-		<div class="rrss">
-			<i class="fab fa-facebook-square"></i>
-			<i class="fab fa-twitter-square"></i>
-			<i class="fab fa-dribbble-square"></i>
-			<i class="fab fa-github-square"></i>	
-		</div>
-		<i class="burger fas fa-bars"></i>
+		
 	</header>
 	<main>
-		<div class="content">
-			<h2>Welcome</h2>
-			<h1>I'm a Photographer</h1>
-			<h4>based in Ceuta, Spain</h4>
-			<a href="#">Hire Me</a>
-		</div>
-		<section class="gif">
-			<img src="https://img.icons8.com/ios-filled/100/131C1F/expand-arrow--v1.png" href="#" />
+		<section id="home" class="home">
+			<div class="content">
+				<h2>Welcome</h2>
+				<h1>I'm a Photographer</h1>
+				<h4>based in Los Angeles, California</h4>
+				<a href="#">Hire Me</a>
+			</div>
+			<div class="gif">
+				<a href="#aboutme"><img src="https://img.icons8.com/ios-filled/100/131C1F/expand-arrow--v1.png" /></a>
+			</div>
+			<div class="ov"></div>
 		</section>
-		<section class="aboutme"></section>
-		<div class="ov"></div>
+		<section id="aboutme" class="aboutme">
+			<div class="sub_title">
+				<h1>ABOUT ME</h1>
+				<h2>Know Me More</h2>
+			</div>
+			<div class="mid">
+				<div class="left">
+					<h2>I'm <span>Simone Olivia</span>, a Web Developer</h2>
+					<p>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p><br>
+					<p>Delivering work within time and budget which meets client's requirements is our moto. Lorem ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.</p>
+				</div>
+				<div class="right">
+					<h6><span>Name:</span> Simone Olivia</h6>
+					<hr>
+					<h6><span>Email:</span> chat@simone</h6>
+					<hr>
+					<h6><span>Age:</span> 28</h6>
+					<hr>
+					<h6><span>From:</span> Los Angeles, California</h6>
+					<a href="#">Download CV</a>
+				</div>
+			</div>
+			<div class="end">
+				<div class="element">
+					<h2>10+</h2>
+					<h5>Years Experiance</h5>
+				</div>
+				<div class="element">
+					<h2>250+</h2>
+					<h5>Happy Clients</h5>
+				</div>
+				<div class="element">
+					<h2>650+</h2>
+					<h5>Projects Done</h5>
+				</div>
+				<div class="element">
+					<h2>38</h2>
+					<h5>Get Awards</h5>
+				</div>
+			</div>
+		</section>
+		<section id="whatido" class="whatido">
+			<div class="sub_title">
+				<h1>SERVICES</h1>
+				<h2>What I Do?</h2>
+			</div>
+			<div class="duo">
+				<div class="ele">
+					<i class="fas fa-palette"></i>
+					<div class="text">
+						<h2>Graphic Design</h2>
+						<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+					</div>
+				</div>
+				<div class="ele">
+					<i class="fas fa-desktop"></i>
+					<div class="text">
+						<h2>Web Design</h2>
+						<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+					</div>
+				</div>
+				<div class="ele">
+					<i class="fas fa-pencil-ruler"></i>
+					<div class="text">
+						<h2>UI/UX Design</h2>
+						<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+					</div>
+				</div>
+				<div class="ele">
+					<i class="fas fa-paint-brush"></i>
+					<div class="text">
+						<h2>App Design & Develop</h2>
+						<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+					</div>
+				</div>
+				<div class="ele">
+					<i class="fas fa-chart-area"></i>
+					<div class="text">
+						<h2>Business Analysis</h2>
+						<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+					</div>
+				</div>
+				<div class="ele">
+					<i class="fas fa-bullhorn"></i>
+					<div class="text">
+						<h2>SEO Marketing</h2>
+						<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="resume" class="resume">
+			<div class="sub_title">
+				<h1>SUMMARY</h1>
+				<h2>Resume</h2>
+			</div>
+			<div class="xp">
+				<div class="tope">
+					<h1>My Education</h1>
+					<div class="studies">
+						<h4>2000-2004</h4>
+						<h2>Computer Science</h2>
+						<h3>International University</h3>
+						<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+					</div>
+					<div class="studies">
+						<h4>2005-2008</h4>
+						<h2>Bachelor Degree</h2>
+						<h3>University of California</h3>
+						<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+					</div>
+				</div>
+				<div class="tope">
+					<h1>My Experience</h1>
+					<div class="studies">
+						<h4>2012-2013</h4>
+						<h2>Jr. UI UX Designer</h2>
+						<h3>Themeforest</h3>
+						<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+					</div>
+					<div class="studies">
+						<h4>2014-2018</h4>
+						<h2>Jr. Product Designer</h2>
+						<h3>Dribbble</h3>
+						<p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.</p>
+					</div>
+
+				</div>
+			</div>
+			<div class="skills">
+				<h1>My Skills</h1>
+				<div class="dato">
+					<div class="skill webd">
+						<div class="text">
+							<h3>Web Design</h3>
+							<h3>65%</h3>
+						</div>
+						<div class="borde">
+  							<div class="progress"></div>
+						</div>
+					</div>
+					<div class="skill react">
+						<div class="text">
+							<h3>React JS</h3>
+							<h3>70%</h3>
+						</div>
+						<div class="borde">
+  							<div class="progress"></div>
+						</div>
+					</div>
+					<div class="skill htc">
+						<div class="text">
+							<h3>HTML/CSS</h3>
+							<h3>95%</h3>
+						</div>
+						<div class="borde">
+  							<div class="progress"></div>
+						</div>
+					</div>
+					<div class="skill ang">
+						<div class="text">
+							<h3>Angular JS</h3>
+							<h3>60%</h3>
+						</div>
+						<div class="borde">
+  							<div class="progress"></div>
+						</div>
+					</div>
+					<div class="skill js">
+						<div class="text">
+							<h3>JavaScript</h3>
+							<h3>80%</h3>
+						</div>
+					<div class="borde">
+  						<div class="progress"></div>
+					</div>
+					</div>
+					<div class="skill boot">
+						<div class="text">
+							<h3>Bootstrap</h3>
+							<h3>99%</h3>
+						</div>
+					<div class="borde">
+  						<div class="progress"></div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio" class="portfolio">
+			<div class="sub_title">
+				<h1>PORTFOLIO</h1>
+				<h2>My Work</h2>
+			</div>
+			<div class="galeria">
+				<div class="nav">
+					<ul>
+						<li><a href="#">Todos</a></li>
+						<li><a href="#">Design</a></li>
+						<li><a href="#">Brand</a></li>
+						<li><a href="#">Photos</a></li>
+					</ul>
+				</div>
+				<div class="fotos">
+					<img src="img/1.jpg">
+					<img src="img/2.jpg">
+					<img src="img/3.jpg">
+					<img src="img/4.jpg">
+					<img src="img/5.jpg">
+					<img src="img/6.jpg">
+					<img src="img/7.jpg">
+					<img src="img/8.jpg">
+					<img src="img/9.jpg">
+					<img src="img/10.jpg">
+					<img src="img/11.jpg">
+					<img src="img/12.jpg">
+				</div>
+			</div>
+		</section>
+		<section id="testimonial" class="testimonial">
+			<div class="sub_title">
+				<h1>TESTIMONIAL</h1>
+				<h2>Client Speak</h2>
+			</div>
+			<div class="test">
+				<div class="testim">
+					<div class="presen">
+						<img src="img/user2.jpg">
+						<div class="nombre">
+							<h4>Dennis Jacques</h4>
+							<h5>User from USA</h5>
+						</div>
+					</div>
+					<p>"Only trying it out since a few days. But uo to now excellent. Seems to work flawlessly, priced simply dummy text of the printing and typesetting industry"</p>
+					<div class="star">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+				</div>
+				</div>
+				<div class="testim">
+					<div class="presen">
+						<img src="img/user1.jpg">
+						<div class="nombre">
+							<h4>Jay Shah</h4>
+							<h5>Founder at Icomatic Ptv Ltd</h5>
+						</div>
+					</div>
+					<p>"Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure."</p>
+					<div class="star">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+				</div>
+			</div>
+			<div class="circle">
+				<div class="bordes"><div class="relleno"></div></div>
+				<div class="bordes"></div>
+			</div>
+		</section>
+		<section id="contact" class="contact">
+			<div class="sub_title">
+				<h1>CONTACT</h1>
+				<h2>Get in Touch</h2>
+			</div>
+			<form  action="" method="POST" enctype="multipart/form-data">
+				<input class="textobtn" name="name" placeholder="Your name" type="text" value="" />
+				<input class="textobtn" name="email" placeholder="Your email" type="text" value="" />
+				<textarea class="textobtn2" name="message" placeholder="Your text here..." rows="14" cols="60"></textarea>
+				<a class="btn" href="#">Send Email</a>
+			</form>
+			
+		</section>
 	</main>
 </body>
 </html>
