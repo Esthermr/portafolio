@@ -264,7 +264,7 @@ h2 span{
     justify-content: center;
     align-items: center;
     margin: 100px auto;
-    gap: 20px;
+    gap: 50px;
 }
 .duo .ele{
 	max-width: 475px;
@@ -547,6 +547,12 @@ form{
 	body{
 		flex-direction: column;
 	}
+	.content h2{
+		font-weight: 400;
+	}
+	.content h4{
+		font-weight: 400;
+	}
 	.cab{
 		position: fixed;
 		z-index: 5;
@@ -709,12 +715,13 @@ form{
 	.content h4{
 		font-size: 1em;
 		padding:0.25em 0;
+		font-weight: 400;
 	}
 	.burger{
 		font-size: 2em;
 	}
 	.sub_title{
-		font-size: 2.5em;
+		font-size: 2.25em;
 	}
 	.skill{
 		width: 100%;
