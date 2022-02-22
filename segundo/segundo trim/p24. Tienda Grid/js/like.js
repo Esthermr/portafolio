@@ -1,16 +1,26 @@
-const like = document.querySelector(".hearts")
 
-console.log(like)
+const galeria = document.querySelector(".resto")
 
-like.addEventListener('click', function(e) {
-	const corazon = document.querySelector(".hearts")
-	if (corazon.classList.contains('material-icons-outlined') )
+const elementos = galeria.querySelectorAll(".elem")
+
+elementos.forEach((item, index) =>{
+
+	console.log(item)
+
+	const like = item.querySelector("span")
+
+	console.log(like)
+
+
+	like.addEventListener('click', function(e) {
+		if (this.classList.contains('material-icons-outlined') )
 		{
-			corazon.innerHTML = "favorite";
-			corazon.classList.replace('material-icons-outlined','material-icons');
+				this.innerHTML = "favorite";
+				this.classList.replace('material-icons-outlined','material-icons');
 		}
 		else{
-			corazon.innerHTML = "favorite_border";
-			corazon.classList.replace('material-icons','material-icons-outlined');
+				this.innerHTML = "favorite_border";
+				this.classList.replace('material-icons','material-icons-outlined');
 		}
-	});
+	})
+});
